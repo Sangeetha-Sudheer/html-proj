@@ -1,0 +1,141 @@
+@font-face {
+    font-family: A;
+    src: url("./fonts/Ananda\ Personal\ Use.ttf");
+}
+
+* {
+    font-family: A;
+}
+
+body {
+    background-image: url("./images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#main-title {
+    font-size: 100px;
+}
+
+#main-button {
+    text-decoration: none;
+    margin-top: 40px;
+    background-color: #ff9be8;
+    border: none;
+    color: white;
+    padding: 30px 80px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 12px;
+}
+
+#main-button:hover {
+    background-color: rgb(247, 111, 96);
+    color: black;
+    cursor: pointer;
+}
+
+.name {
+    margin: 20px;
+    font-size: 20px;
+}
+
+#categories-main {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.category-tile {
+    width: 200px;
+    text-decoration: none;
+    background-color: #ff9be8;
+    margin: 20px;
+    border: none;
+    color: white;
+    padding: 30px 80px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 12px;
+}
+
+.category-tile:hover {
+    background-color: rgb(247, 111, 96);
+    color: black;
+    cursor: pointer;
+}
+
+#gallery-main {
+    column-count: 3;
+}
+
+.gallery-image {
+    width: 400px;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+#image-main {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image-zoom {
+    width: 1000px;
+}
+
+#image-left {
+    color: #f76f60;
+    margin-right: 30px;
+    font-size: 50px;
+}
+
+#image-right {
+    color: #f76f60;
+    margin-left: 30px;
+    font-size: 50px;
+}
+
+#image-left:hover {
+    color: rgb(171, 43, 29);
+    cursor: pointer;
+    user-select: none;
+}
+
+#image-right:hover {
+    color: rgb(171, 43, 29);
+    cursor: pointer;
+    user-select: none;
+}
